@@ -18,11 +18,30 @@ nav {
     margin-right: 35px;
   }
 
-  img{
-    width:10%;
-    height:10%;
+
+  img.sheep{
+    width:400px;
+    height:400px;
   }
 
   footer{
     text-align: center;
   }
+
+  /* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+  /* 左寄せ */
+  ul{
+    padding-left: 0;
+  }
+
+  li.content {
+    color: #ffffff;
+    background-color: #7000cc;
+    margin:1em; /* 紫領域の外枠の余白を設定 */
+    padding:1em;/* 紫領域の内枠の余白を設定 */
+  }
+}
