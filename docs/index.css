@@ -24,6 +24,16 @@ nav {
     height:400px;
   }
 
+  .works img{
+    width:50%;
+    height:50%;
+  }
+
+  .works iframe{
+    width:40%;
+   
+  }
+
   footer{
     text-align: center;
   }
