@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 h1 {
   margin: 0;
 }
@@ -10,9 +14,13 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  margin: 0;
+}
+
 header {
   background-color: rgb(10, 59, 60);
-  height: 60px;
+  height: 65px;
 }
 
 header a {
@@ -43,4 +51,24 @@ header a {
   font-size: 40px;
   color: rgb(10, 59, 60);
   letter-spacing: 2px;
+}
+
+.about-wrapper {
+  text-align: center;
+  background-color: rgb(220, 173, 132);
+}
+
+.about-wrapper img {
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.about-wrapper h3 {
+  color: rgb(10, 59, 60);
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.profile {
+  color: rgb(10, 59, 60);
 }
