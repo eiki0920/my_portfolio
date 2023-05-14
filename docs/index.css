@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: rgb(220, 173, 132);
 }
 
 li {
@@ -63,12 +64,36 @@ header a {
   margin-bottom: 40px;
 }
 
-.about-wrapper h3 {
+.section {
   color: rgb(10, 59, 60);
   font-size: 30px;
   margin-bottom: 40px;
 }
 
 .profile {
+  color: rgb(10, 59, 60);
+}
+
+.skill-wrapper {
+  padding: 180px 0 180px 0;
+  text-align: center;
+}
+
+.skill-list p {
+  margin-bottom: 5px;
+}
+
+.skill-list img {
+  width: 40%;
+  padding-top: 30px;
+}
+
+.skill-item {
+  float: left;
+  width: 30%;
+  text-align: center;
+  border: 7px solid rgb(182, 109, 78);
+  border-radius: 10%;
+  margin-left: 15px;
   color: rgb(10, 59, 60);
 }
