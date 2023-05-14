@@ -79,21 +79,31 @@ header a {
   text-align: center;
 }
 
-.skill-list p {
+.list-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.list-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-item p {
   margin-bottom: 5px;
 }
 
-.skill-list img {
+.skill-item img {
   width: 40%;
   padding-top: 30px;
 }
 
 .skill-item {
   float: left;
-  width: 30%;
+  width: 22%;
   text-align: center;
   border: 7px solid rgb(182, 109, 78);
   border-radius: 10%;
-  margin-left: 15px;
   color: rgb(10, 59, 60);
+  margin: 10px 10px;
 }
