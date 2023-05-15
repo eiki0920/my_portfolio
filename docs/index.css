@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: rgb(220, 173, 132);
 }
 
 li {
@@ -27,7 +26,7 @@ header {
 header a {
   line-height: 65px;
   padding: 0 25px;
-  color: rgb(182, 109, 78);
+  color: white;
   text-decoration: none;
   font-size: 21px;
 }
@@ -37,7 +36,6 @@ header a {
 }
 
 .top-wrapper {
-  background-color: rgb(220, 173, 132);
   text-align: center;
   padding: 180px 0 180px 0;
 }
@@ -56,12 +54,12 @@ header a {
 
 .about-wrapper {
   text-align: center;
-  background-color: rgb(220, 173, 132);
 }
 
 .about-wrapper img {
   border-radius: 50%;
   margin-bottom: 40px;
+  border: 7px solid rgb(10, 59, 60);
 }
 
 .section {
@@ -100,9 +98,9 @@ header a {
 
 .skill-item {
   float: left;
-  width: 22%;
+  width: 23%;
   text-align: center;
-  border: 7px solid rgb(182, 109, 78);
+  border: 7px solid rgb(10, 59, 60);
   border-radius: 10%;
   color: rgb(10, 59, 60);
   margin: 10px 10px;
