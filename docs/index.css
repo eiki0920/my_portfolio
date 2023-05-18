@@ -41,7 +41,7 @@ header a {
 }
 
 .top-wrapper h1 {
-  font-size: 60px;
+  font-size: 80px;
   color: rgb(10, 59, 60);
   letter-spacing: 6px;
 }
@@ -60,6 +60,10 @@ header a {
   border-radius: 50%;
   margin-bottom: 40px;
   border: 7px solid rgb(10, 59, 60);
+}
+
+.about-wrapper p {
+  font-size: 20px;
 }
 
 .section {
@@ -104,4 +108,25 @@ header a {
   border-radius: 10%;
   color: rgb(10, 59, 60);
   margin: 10px 10px;
+}
+
+.works-wrapper {
+  text-align: center;
+}
+
+.news-wrapper {
+  text-align: center;
+  color: rgb(10, 59, 60);
+  padding: 100px 0;
+}
+
+.news p {
+  display: inline-block;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(10, 59, 60);
+  font-size: 20px;
+}
+
+.contact-wrapper {
+  text-align: center;
 }
