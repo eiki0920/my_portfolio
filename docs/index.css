@@ -19,8 +19,12 @@ h3 {
 }
 
 header {
-  background-color: rgb(10, 59, 60);
+  background-color: rgb(10, 59, 60, 0.9);
   height: 65px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
 }
 
 header a {
@@ -129,6 +133,7 @@ header a {
 
 .contact-wrapper {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .contact-item img {
