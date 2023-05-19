@@ -130,3 +130,18 @@ header a {
 .contact-wrapper {
   text-align: center;
 }
+
+.contact-item img {
+  display: inline-block;
+  width: 130px;
+  padding: 0 20px;
+}
+
+.contact-item {
+  float: left;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
