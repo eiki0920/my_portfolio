@@ -118,6 +118,24 @@ header a {
   text-align: center;
 }
 
+.work {
+  margin: 0 auto;
+  width: 40%;
+  border: 7px solid rgb(10, 59, 60);
+  border-radius: 10%;
+  color: rgb(10, 59, 60);
+  padding: 20px;
+}
+
+.work a {
+  text-decoration: none;
+  color: rgb(10, 59, 60);
+}
+
+.work img {
+  width: 90%;
+}
+
 .news-wrapper {
   text-align: center;
   color: rgb(10, 59, 60);
@@ -149,4 +167,35 @@ header a {
 .contact-list {
   display: flex;
   justify-content: center;
+}
+
+/*========= LoadingのためのCSS ===============*/
+
+/* Loading背景画面設定　*/
+
+#splash {
+  /*fixedで全面に固定*/
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  color: #fff;
+}
+
+/* Loadingバー中央配置　*/
+#splash_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
+#splash_text svg {
+  height: 2px;
 }

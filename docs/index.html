@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
+    <div id="splash">
+      <div id="splash_text"></div>
+      <!--/splash-->
+    </div>
+    <header id="header">
       <a href="#top">Top</a>
       <a href="#about">About</a>
       <a href="#skill">Skill</a>
@@ -88,6 +92,18 @@
     <div class="works-wrapper">
       <div class="container">
         <h3 class="section" id="works">Works</h3>
+        <div class="work-list">
+          <div class="work">
+            <img src="./img/work/pokedex.png" />
+
+            <h4>
+              <a href="https://pokedex-eiki.netlify.app/">ポケモン図鑑</a>
+            </h4>
+            <p>
+              現在勉強しているReactの練習としてPokeAPIを使ったポケモン図鑑を作成しました
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -119,5 +135,13 @@
         </div>
       </div>
     </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
